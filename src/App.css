@@ -821,7 +821,6 @@ h1.amount{
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 #buttons button{
   background-image: linear-gradient(0deg, #0c1424, #10344c);
