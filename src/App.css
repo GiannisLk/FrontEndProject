@@ -1,0 +1,1105 @@
+html{
+  height: 100%;
+  
+}
+body{
+  /* background-image: linear-gradient(0deg, #10344c, #184464); */
+  /* background-image: linear-gradient(0deg, #0c2438  , #144464); */
+  background-color: #88949c;
+  /* overflow-x: hidden; */
+  background-attachment: fixed;
+}
+.App {
+  text-align: left;
+}
+
+
+/* Login Page CSS */
+
+
+
+#loginform {
+  height: fit-content;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 27%;
+  border: 1px solid black;
+  border-radius: 8%;
+  background-color: #b8c4c4;
+  min-width: 300px;
+  text-align: center;
+  min-height: fit-content;
+}
+#loginicon{
+  border: 1px solid #2596be;
+  color: white;
+  width: 120px;
+  min-width: 35px;
+  height: 95px;
+  border-radius: 50%;
+  margin-left: auto;
+  top: -45px;
+  margin-right: auto;
+  position: relative;
+  padding: 0;
+  margin-bottom: 0;
+  background-image: linear-gradient(0deg, #0c2438  , #184464);
+  /* background-image: url('https://lineupsvalorant.com/static/ui_icons/user_icon.png');*/ /*Replace with your image path */
+  background-size: cover; /* Cover the entire container with the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center center; /* Center the image */
+  overflow: hidden; /* Hide any image overflow */
+}
+
+#loginicon svg {
+position: relative;
+margin: auto;
+padding: 0;
+height: 88px;
+}
+.logincontainer{
+  display: flex;
+  align-items: center;
+  display:inline-flex; /* Use flexbox to align items */
+  align-items: center; /* Vertically center the image */
+  justify-content: center; /* Horizontally center the image */
+}
+
+.loginpassword{
+  display: flex;
+  align-items: center;
+  display:inline-flex; /* Use flexbox to align items */
+  align-items: center; /* Vertically center the image */
+  justify-content: center; /* Horizontally center the image */
+  margin-top: 10px;
+}
+.logincontainer svg, .loginpassword svg{
+  height: 5vh;
+  color: white;
+  background-color: #0c344c;
+  min-height: 30px;
+  padding:1px;
+}
+
+#logininput{
+  margin-top: 0px;
+}
+#logininput  input {
+  color: white;
+  background-color: #505c6c;
+  border-radius: 0 2% 2% 0;
+  height: 5vh;
+  width: 18vw;
+  /* margin-top: 20px; */
+  border: none;
+  min-width: 150px;
+  min-height: 30px;
+  font-size: large;
+  padding-left: 5px;
+}
+#logininput  input::placeholder{
+  color: #acbed7;
+
+}
+#logininput  input:focus{
+  outline: none;
+}
+  #LoginOptions{
+    font-size:medium;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8px 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+  #LoginOptions label{
+    display: inline-flex;
+    margin-top: auto;
+    white-space: nowrap;
+  }
+  #LoginOptions input {
+    accent-color: #10344c;
+    display: inline-flex !important;
+    justify-content: flex-start !important;
+    margin-top: auto !important;
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+    justify-content:left !important;
+    padding-block-start: 0px !important;
+  }
+
+   #LoginOptions > a {
+    text-align: right; 
+    margin-right: 0px;
+    /* margin-left: 75px; */
+    padding-right: 0;
+    margin-top: 60px; 
+    color: #10344c;
+    white-space: nowrap;
+  }
+
+
+#submission{
+  background-image: linear-gradient(0deg, #0c1424, #10344c);
+  color: white;
+  /* margin-top: 15px; */
+  width: 10vw;
+  height: 5vh;
+  font-size: large;
+  border-radius: 7px;
+  min-width: fit-content;
+  min-height: 30px;
+  margin-bottom: 20px;
+}
+#submission:hover{
+  cursor: pointer;
+}
+
+/* Login Page CSS END */
+
+
+
+/* Header and sidebar CSS */
+#header{
+height: 10vh;
+/* width: 100%; */
+/* max-width: auto; */
+background-image: linear-gradient(0deg, #0c1424, #10344c);
+/* max-height: 9vh; */
+border-radius: 10px;
+border: 1px solid #2596be;
+/* align-items:baseline; */
+display: flex;
+justify-content: space-between;
+min-height: 67px;
+position: static;
+}
+
+#navbar1{
+  padding-left: 20px;
+  margin-bottom: 3vh;
+  white-space: nowrap;
+  width: 120px;
+}
+#searchContainer{
+  background-color: white;
+  position: relative;
+  align-items: center;
+  display: inline-flex;
+  margin-top: 22px;
+  border-radius: 10px;
+  width: 25vw;
+  min-width: 150px;
+}
+#navbar2{
+  white-space: nowrap;
+  position: relative;
+  align-items: center;
+  outline: none;
+}
+
+#navbar2 input{
+  height: 38%;
+  min-height: 25px;
+  width: 22vw;
+  margin-right: 0;
+  border-radius: 10px;
+  border: none;
+  margin-left: 5px;
+}
+#navbar2 img{
+  height: 20px;;
+}
+#filter{
+  /* position: absolute; */
+  display: inline-flex !important;
+  position: relative !important;
+  /* margin-top: 20px !important; */
+  height: 31px;
+  min-height: 31px !important;
+  width: 34px;
+  margin: 0;
+  margin-left: 8px;
+  display:inline-flex; /* Use flexbox to align items */
+  align-items: center; /* Vertically center the image */
+  justify-content: center; /* Horizontally center the image */
+  vertical-align: middle;
+  border-radius: 9px;
+  background-image: linear-gradient(0deg, #545454, #d4d4d4);
+  cursor: pointer;
+
+  /* z-index:  !important; */
+}
+#filter > svg{
+  height: 15px;
+  width: 20px;
+  pointer-events: none;
+}
+
+#filterContainer{
+  display: inline;
+  position: absolute;
+  margin-top: 21px;
+  z-index: 2;
+}
+
+#filtermenu{
+  position: absolute;
+  display: none;
+  /* left: 0; */
+  margin: 0;
+  /* top: 21px; */
+  /* left: 357px; */
+  align-items: center; /* Vertically center the image */
+  justify-content: center; /* Horizontally center the image */
+  background-color: white;
+  border: 1px solid #2596be;
+  border-radius: 15px;
+  overflow: hidden;
+  overflow-y: auto;
+  height: fit-content;
+  color: gray;
+  font-size: small;
+}
+#filtermenu ul{
+  list-style: none; /* Remove default list bullets */
+  padding:0px; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  width: 100%; /* Make the <ul> width match the width of the parent */
+  height: 100%; /* Make the <ul> height match the height of the parent */
+  /* overflow: auto; Add a scrollbar if the content overflows */
+}
+#filtermenu li{
+  list-style-type: none;
+  padding: 5px 10px 3px 45px;
+  margin-left: 0;
+  border-bottom: 1px solid lightgrey;
+  cursor: pointer;
+}
+#filtermenu li:hover{
+  background-color: #505c6c;
+  color: white;
+}
+#navbar3{
+  position: relative;
+  display: flex;
+  margin-left: 0;
+  padding-right: 20px;
+  white-space: nowrap;
+  align-items: center;
+  margin-right: 30px !important;
+  font-size: medium;
+}
+#navbar3 img{
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+  display: inline-flex;
+  margin-left: 10px;
+}
+#header > h2 {
+  color: white;
+  margin-right: 20px;
+  margin-left: 20px;
+  
+}
+
+
+/* Sidebar css */
+#navBar{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  text-align: left;
+  width:  4%;
+  min-width: 45px;
+  min-height: 320px;
+  margin-left: 15px;
+  justify-content: center;
+  background-image: linear-gradient(0deg, #000000,#0c1424, #34657f);
+  border-radius: 17px;
+  top: 120px;
+  height: 70vh;
+  border: 2px solid #90bebf;
+
+  /* Text Non Effect */
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 42px rgb(0, 157, 255),
+      0 0 82px rgb(0, 157, 255),
+      0 0 92px rgb(0, 157, 255),
+      0 0 102px rgb(0, 157, 255),
+      0 0 151px rgb(0, 157, 255);
+}
+
+#navBar ul{
+  margin-left: 0;
+  margin-top: 40px;
+  padding: 0;
+  font-size: small;
+}
+.navBarItem {
+ color: white;
+ list-style-type: none;
+ margin-left: 0px;
+ padding-left: 0;
+ display:-moz-stack;
+ margin-bottom: 60px;
+ text-align: center;
+}
+
+.back:hover {
+cursor: pointer;
+}
+.navBarItem a {
+  text-decoration: none;
+}
+.navBarItem a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.navBarItem svg {
+  height: 30px;
+}
+
+/* Header and sidebar CSS end */
+
+
+
+/* Dashboard CSS */
+#dashboard{
+  margin-top: 0px;
+  margin-left: 90px;
+  margin-right: 20px;
+  min-width: 200px; 
+  justify-content: space-between;
+}
+
+#dashboard label{
+  color: #164e72;
+  font-weight: bold;
+  background: none;
+  border: 2px solid #164e72;
+  border-radius: 25px;
+  padding: 0px 3px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+  /* display: block;
+  position: absolute;
+  margin: 0 auto;
+  padding-top: 0 auto; */
+}
+
+#dashboard table{
+  border-spacing: 35px 0;
+}
+
+.labelcontainer{
+  background-image: linear-gradient(0deg, #606c74  , #f4f4f4  );
+  border-radius: 10px;
+  padding: 6px 3px 6px 3px;
+  margin-top: 10px;
+  width: fit-content;
+  min-width:max-content;
+  top: 10px;
+  position: relative
+
+}
+.labelcontainer, .labelcontainer label:hover{
+  cursor: pointer;
+}
+/* #dashboard tr{
+margin-bottom: 200px;
+}  */
+
+#dashboard td {
+  border: 2px solid #164e72;
+  height: 150px;
+  /* width: 150px;
+  min-width: 75px; */
+  border-radius: 10px;
+  padding-right: 20px;
+  box-shadow: 0px 0px 36px 15px rgba(22, 78, 114, 0.10);
+  padding-top: 0;
+}
+
+#dashboard h1{
+  color: white;
+  text-align: left;
+  margin-left: 0;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  font-size: 24px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #0c3454;
+  text-shadow:  0 0 7px #0c1424;
+}
+
+#dashboard h2{
+  color: #0c3454;
+  display: inline;
+  text-align: left;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: fit-content;
+  margin-left: 15px;
+}
+
+/* Dashboard CSS end */
+
+
+
+/* Project Page CSS */
+
+#commits{
+margin-top: auto;
+margin-bottom: auto;
+text-align: left;
+background-color: #0c3454 !important;
+border-radius: 9px;
+padding: 1px 13px;
+color: white !important;
+width: fit-content;
+font-size: large;
+}
+
+#overview{
+  border: 3px solid #0c3454;
+  margin-right: 15px;
+  border-radius: 14px;
+  height: 50px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 200px;
+}
+#overview #title{
+font-size: 1.4rem;
+white-space: nowrap;
+}
+
+#overview p {
+  margin-left: 60px;
+  margin-right: 20px;
+  color: #0c3454;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+#progressbar {
+  width: 54%;
+  background-color: #0c3454;
+  position: relative;
+  margin-right: 5px;
+}
+
+.hover{
+  cursor: pointer;
+}
+
+#myBar {
+  width: 30%;
+  height: 4px;
+  background-color: white;
+  text-align: center; /* To center it horizontally (if you want) */
+  line-height: 30px; /* To center it vertically */
+  color: white;
+  position: relative;
+}
+
+#circle{
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border: 1px solid #124875;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0; /* Adjust this value to set the distance of the circle from the progress bar */
+}
+
+#projectgraphContainer{
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center;
+}
+
+#projectgraph{
+  display: none;
+  margin-top: 25px;
+  height: 300px;
+  width: 950px;
+  border: 4px solid #124875;
+  border-radius: 25px;
+}
+#projectgraph img{
+  padding: 40px;
+}
+
+#projectContent{
+  display: flex;
+  margin-top: 10px;
+  align-items: flex-start;
+  /* justify-content: space-between; */
+}
+
+#classTable{
+  border-collapse: collapse;
+  font-size: large;
+  table-layout: fixed;
+  max-width: 85%;
+  margin-left: 15px;
+}
+#classTable td{
+  border: 1px solid grey;
+  height: auto;
+  width: auto;
+  padding: 10px 10px;
+  margin: 0;
+  min-width: auto;
+  text-align: center;
+  font-weight: bold;
+  color: #10344c;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+#classTable td:hover{
+opacity: 0.5;
+transition: 0.08s;
+}
+
+.loc0{
+  width: 30px !important;
+  min-width: 30px !important;
+}
+
+.loc1{
+  width: 40px !important;
+  min-width: 40px !important;
+}
+
+.loc2{
+  width: 60px !important;
+  min-width: 60px !important;
+}
+
+.loc3{
+  width: 70px !important;
+  min-width: 70px !important;
+}
+
+.ref0{
+  background-color: none;
+}
+
+.ref1{
+  background-color: white;
+}
+
+.ref2{
+  background-color: #c0bcc4;
+}
+
+.ref3{
+  background-color: #586c7c;
+}
+
+.ref4{
+  background-color: #0c344c;
+  color: white !important;
+}
+
+#vertical{
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: column;
+  margin-right: 45px;
+  margin-left: 30px;
+}
+
+/* Switch box css start */
+.switch {
+  display: flex;
+  align-items: center;
+  height: 45px; /* Adjust the height based on your design */
+  width: 90px;
+  position: relative;
+  border: none !important;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  transition: background-color 0.4s;
+  height: 100%;
+  border-radius: 25px;
+}
+
+.slider:before {
+  content: "ON";
+  color: white;
+  font-size: larger;
+  height: 100%;
+  width: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(0deg, #0c1424, #10344c);
+  transition: transform 0.4s;
+  border-radius: 25px;
+  border-right: 1px solid grey !important;
+
+}
+
+input:checked + .slider {
+  background-color: #000000;
+}
+
+input:checked + .slider:before {
+  transform: translateX(47%);
+  content: 'OFF';
+  border-right: none !important;
+}
+
+/* Switch box css end */
+
+#bar{
+  margin-top: 30px;
+  height: 130px;
+  width: 20px;
+  background-image: linear-gradient(0deg, #243c54, #546b7c, white);
+  border: 1px solid #606c74;
+}
+#retrainButton{
+  background-image: linear-gradient(0deg, #0c1424, #10344c);
+  color: white;
+  margin-top: 15px;
+  padding: 5px;
+  height: 5vh;
+  min-height: 30px;
+  min-width: 90px;
+  font-size: large;
+  border-radius: 9px;
+  margin-right: 30px;
+  font-weight: bold;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#retrainButton:hover{
+  cursor: pointer;
+  opacity: 0.9;
+}
+#retrainButton svg{
+  height: 20px;
+  width: 20px;
+  margin-left: 5px;
+}
+/* Project Page CSS end*/
+
+
+
+/* Class Page CSS */
+
+#classesContainer{
+  background-image: linear-gradient(0deg, #000000,#0c1424, #34657f);
+  margin-top: 17px;
+  padding: 10px;
+  margin-right: 15px;
+  border: 1px solid #2596be;
+  border-radius: 10px;
+  overflow:auto;
+}
+
+#classesContainer::-webkit-scrollbar {
+  width: 20px;
+  height: 7px;
+  color: #2596be;
+}
+#classesContainer::-webkit-scrollbar-thumb:hover{
+  background:#2596be; 
+}
+#classesContainer::-webkit-scrollbar-thumb {
+  background:#124875; 
+  border-radius: 10px;
+}
+#classesContainer{
+  scrollbar-width: thin;
+}
+#classesContainer table{
+  border-spacing: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+#classesContainer table td{
+  border: 1px solid black;
+  border-radius: 0;
+  height: 80px;
+  padding: 0;
+  border-style: 0;
+  width: 120px;
+}
+
+
+#classesContainer h1{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 28px;
+
+}
+
+h1.amount{
+  font-weight:800 !important;
+}
+
+#graph{
+  border: 2px solid #0c3454;
+  border-radius: 25px;
+  width: 530px;
+  height: 360px;
+  box-shadow: 0px 0px 35px 1px rgba(22, 78, 114, 0.19);
+  display: inline-block;
+  text-align: center;
+  margin-top: 17px
+}
+
+#percentages {
+  display: inline-block;
+}
+
+#percentages table{
+  border-spacing: 20px;
+}
+
+#percentages td{
+  border-spacing: 0px 20px !important;
+  margin-bottom: 10px !important;
+  text-align: center;
+  padding: 0;
+  width: 160px;
+  height: 180px;
+}
+#classList td:hover{
+  background-image: linear-gradient(0deg, #10344c,#34657f);
+}
+#classdetails{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-width: 120px;
+  padding-right: 20px;
+}
+
+#graphcontainer img{
+  padding-top: 25px;
+  justify-content: center;
+}
+#buttons{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#buttons button{
+  background-image: linear-gradient(0deg, #0c1424, #10344c);
+  color: white;
+  margin-top: 15px;
+  width: 10vw;
+  height: 5vh;
+  min-height: 30px;
+  min-width: 90px;
+  font-size: large;
+  border-radius: 7px;
+  margin-right: 30px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+#buttons button:hover{
+  cursor: pointer;
+  opacity: 0.9;
+}
+#percentages td{
+  color: #124875;
+  font-weight: bold;
+}
+#metricsReasons {
+  background-image: linear-gradient(0deg, #88949c, #ccd4d4);
+  padding: 0;
+  width: 100%;
+  min-width: 100px;
+  border-spacing: 25px 15px !important;
+}
+#metricsReasons td {
+  padding: 10px;
+  width: 300px;
+  height: 70px;
+  box-shadow: -10px 10px 10px  rgba(22, 78, 114, 0.3);
+  color: #124875;
+
+}
+#metricsTable{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 17px;
+  font-size: small;
+  width: 35%;
+
+}
+#tabletitle{
+  background-image: linear-gradient(0deg, #0c242c, #0c344c);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border: none ;
+  width: 100% !important;
+  height: 60px !important;
+  font-size: large;
+ 
+}
+
+#similarClassesTable{
+  border-spacing: 0 !important;
+  border-collapse: collapse !important;
+  border: 1px solid #2596be;
+  background-color: white;
+  width: 100%;
+  /* min-width: 700px; */
+}
+#similarClassesTable #titles{
+  background-image: linear-gradient(0deg, #0c242c,#14546c , #205c7c);
+  border-collapse: collapse !important;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  height: 90px !important;
+  font-size: large !important;
+  white-space: nowrap;
+}
+
+#similarClassesTable td{
+  border: none !important;
+  border-radius: 0% !important;
+  text-align: center;
+  border-bottom: 1px solid black !important;
+  height: auto !important;
+  font-size: small;
+  white-space: nowrap;
+  box-shadow: none;
+  width: 150px;
+  min-width: 75px;
+}
+#similarClassesTable input{
+  height: 25px;
+  width: 25px;
+}
+#similarClassesTable input[type="checkbox"]:checked{
+  background-color: white;
+  color: #000000;
+}
+
+#similarClassesTable button{
+  background: none;
+  display: inline-flex;
+  border: none;
+  font-size: larger !important;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  margin-left: 3px;
+}
+#expand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+#similarClassesTable button:hover{
+  background-color: #88949c;
+  border-radius: 10%;
+  transition: 0.1s;
+  cursor: pointer;
+}
+.bold{
+  font-weight: bold;
+}
+
+
+#metricsReasonsCol{
+  text-align: center;
+  padding-right: 20px;
+  /* display: none; */
+}
+
+#metricsReasonsClass{
+  display: none;
+  position: absolute;
+  background-image: linear-gradient(0deg, #88949c, #ccd4d4);
+  font-size: small !important;
+  border-spacing: 15px 5px !important;
+  overflow: auto;
+}
+#metricsReasonsClass td {
+  padding: 0 10px;
+  width: auto;
+  height: 70px;
+  box-shadow: -10px 10px 10px  rgba(22, 78, 114, 0.3);
+  color: #124875;
+  top: 100px;
+}
+#metricsReasonsClass::-webkit-scrollbar {
+  width: 10px;
+  height: 7px;
+  color: #0c1424;
+}
+#metricsReasonsClass::-webkit-scrollbar-thumb:hover{
+  background:#124875; 
+  cursor: pointer;
+}
+#metricsReasonsClass::-webkit-scrollbar-thumb {
+  background:#0c1424; 
+  border-radius: 10px;
+}
+#metricsColumnTd{
+  width: 200% !important;
+  min-width: 200px !important;
+  column-span: 2;
+}
+#metricsReasonsClass{
+  scrollbar-width: 15px;
+}
+
+#urgencyGraphContainer{
+  display: none;
+  position: absolute;
+  background-image: linear-gradient(30deg, #0c242c,#14546c , #205c7c);
+  align-items: center; /* Vertically center the image */
+  justify-content: center; /* Horizontally center the image */
+  flex-direction: column;
+
+}
+#urgencyGraphContainer h1{
+  text-align: left !important;
+  padding: 20px;
+
+}
+#urgencyGraph{
+  height: 30vh;
+  width: 30vh;
+  background-color: white;
+  margin: 20px;
+
+}
+#center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#graphInfo{
+  display: flex;
+  background-color: lightgray;
+  border-radius: 25px;
+  height: 20px;
+  margin: 20px;
+  width: fit-content;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+}
+#urgencyGraphContainer ul{
+  margin: 0;
+  padding: 0;
+}
+#urgencyGraphContainer li{
+  list-style: none;
+  display: inline;
+  font-size: 10px;
+  margin-right: 3px;
+}
+
+#myClass::before{
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: 1em;
+}
+
+#yesClasses::before{
+  content: "\2022";
+  color: #0c2438;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: 1em;
+}
+
+#noClasses::before{
+  content: "\2022";
+  color: #2596be;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: 1em;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media (max-width: 800px){
+  #progressbar, #mybar, #overview p{
+    display: none;
+  }
+  #overview, #overview #title{
+    justify-content: center;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
